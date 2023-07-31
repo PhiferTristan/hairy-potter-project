@@ -1,4 +1,4 @@
-let potteryId = 1;
+let potteryId = 0;
 
 export const makePottery = (shape, weight, height) => {
   potteryId++;

@@ -1,4 +1,4 @@
-const potteryCatalog = [];
+const PotteryCatalog = [];
 
 export const toSellOrNotToSell = (pot) => {
   if (pot.cracked) {
@@ -9,11 +9,11 @@ export const toSellOrNotToSell = (pot) => {
     } else {
       pot.price = 20;
     }
-    potteryCatalog.push(pot);
+    PotteryCatalog.push(pot);
     return pot;
   }
 };
 
 export const usePottery = () => {
-  return potteryCatalog;
+  return PotteryCatalog;
 };
